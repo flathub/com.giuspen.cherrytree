@@ -207,14 +207,12 @@
         },
         {
             "name" : "cherrytree",
-            "config-opts" : [
-            ],
             "buildsystem": "cmake",
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.22.1.tar.xz",
-                    "sha256" : "ed9fa0f09085514cb37d6f2a10a1d6ad5dc3a93349975b92d9a878e585e0ccc7"
+                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.23.tar.xz",
+                    "sha256" : "869d7aaf983c15f0bbdbb3964e8b8a70a997a9893b46bb73f1dae8203dc739aa"
                 }
             ]
         }
