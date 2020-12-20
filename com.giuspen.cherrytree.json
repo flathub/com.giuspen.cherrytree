@@ -202,8 +202,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.25.tar.xz",
-                    "sha256" : "6e22c685cdf4ca80b1359efa6c838f01a6409307075447989d4daca02de3bfe1"
+                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.26.tar.xz",
+                    "sha256" : "29aaabea722faeaaed4e1142551dfeb2e022e5bce25ebccd626d74fe0cd3572e"
                 }
             ]
         }
