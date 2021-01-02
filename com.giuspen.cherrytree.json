@@ -197,13 +197,35 @@
             ]
         },
         {
+            "name" : "fmt",
+            "buildsystem": "cmake",
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://github.com/fmtlib/fmt/releases/download/7.1.2/fmt-7.1.2.zip",
+                    "sha256" : "4d6968ab7c01e95cc76df136755703defb985105a117b83057e4fd5d53680ea7"
+                }
+            ]
+        },
+        {
+            "name" : "spdlog",
+            "buildsystem": "cmake",
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://github.com/gabime/spdlog/archive/v1.8.2.tar.gz",
+                    "sha256" : "e20e6bd8f57e866eaf25a5417f0a38a116e537f1a77ac7b5409ca2b180cec0d5"
+                }
+            ]
+        },
+        {
             "name" : "cherrytree",
             "buildsystem": "cmake",
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.27.tar.xz",
-                    "sha256" : "1c10020eef6e222bbdaa87b9d15d85b703380aba4727a2fbd0f09f8cc353c606"
+                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.28.tar.xz",
+                    "sha256" : "54d246dcd15ce699d6260a9322289a5fcba40fa2490cfea68dc394541c0d74c9"
                 }
             ]
         }
