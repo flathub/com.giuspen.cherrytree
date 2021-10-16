@@ -219,7 +219,7 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.42.tar.xz",
+                    "url" : "https://github.com/giuspen/cherrytree/releases/download/0.99.42/cherrytree_0.99.42.tar.xz",
                     "sha256" : "d490df4c841bf71721bdb1f6b77831dc11bafbaed22fe129f5566e2499a90154"
                 }
             ]
