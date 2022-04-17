@@ -1,7 +1,7 @@
 {
     "app-id": "com.giuspen.cherrytree",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "41",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "cherrytree",
     "rename-desktop-file": "cherrytree.desktop",
@@ -9,9 +9,10 @@
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        "--socket=fallback-x11",
+        "--socket=x11",
         "--socket=wayland",
         "--filesystem=host",
+        "--filesystem=xdg-config/gtk-3.0",
         "--filesystem=xdg-run/gvfs",
         "--filesystem=xdg-run/gvfsd",
         "--talk-name=org.gtk.vfs.*"
@@ -38,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.acc.umu.se/pub/GNOME/sources/mm-common/1.0/mm-common-1.0.3.tar.xz",
-                    "sha256": "e81596625899aacf1d0bf27ccc2fcc7f373405ec48735ca1c7273c0fbcdc1ef5"
+                    "url": "https://ftp.acc.umu.se/pub/GNOME/sources/mm-common/1.0/mm-common-1.0.4.tar.xz",
+                    "sha256": "e954c09b4309a7ef93e13b69260acdc5738c907477eb381b78bb1e414ee6dbd8"
                 }
             ],
             "cleanup": [
@@ -54,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.acc.umu.se/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.7.tar.xz",
-                    "sha256": "d082a2ce72c750f66b1a415abe3e852df2eae1e8af53010f4ac2ea261a478832"
+                    "url": "https://ftp.acc.umu.se/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.8.tar.xz",
+                    "sha256": "235a40bec7346c7b82b6a8caae0456353dc06e71f14bc414bcc858af1838719a"
                 }
             ]
         },
@@ -219,8 +220,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.46.tar.xz",
-                    "sha256" : "f5141669fb6bf33d79e9ae24ea59f6d1846e60b0d2e18105dcfdc41d5b15913f"
+                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.47.tar.xz",
+                    "sha256" : "1b551ee00f788d21ebda3123495a88da293467b8a53bb78fb4fae957c452d024"
                 }
             ]
         }
