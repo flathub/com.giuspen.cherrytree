@@ -116,12 +116,12 @@
             ]
         },
         {
-            "name" : "gtkmm",
+            "name": "gtkmm",
             "buildsystem": "meson",
             "cleanup": [
                 "/lib/gtkmm-3.0"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.5.tar.xz",
@@ -130,11 +130,11 @@
             ]
         },
         {
-            "name" : "gtksourceview",
+            "name": "gtksourceview",
             "config-opts" : [
                 "--disable-documentation"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://ftp.acc.umu.se/pub/GNOME/sources/gtksourceview/3.24/gtksourceview-3.24.11.tar.xz",
@@ -143,11 +143,11 @@
             ]
         },
         {
-            "name" : "gtksourceviewmm",
+            "name": "gtksourceviewmm",
             "config-opts" : [
                 "--disable-documentation"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://ftp.acc.umu.se/pub/GNOME/sources/gtksourceviewmm/3.21/gtksourceviewmm-3.21.3.tar.xz",
@@ -156,11 +156,11 @@
             ]
         },
         {
-            "name" : "libxml++",
+            "name": "libxml++",
             "config-opts" : [
                 "--disable-documentation"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://ftp.acc.umu.se/pub/GNOME/sources/libxml++/2.42/libxml++-2.42.1.tar.xz",
@@ -169,11 +169,11 @@
             ]
         },
         {
-            "name" : "gspell",
+            "name": "gspell",
             "cleanup": [
                 "/bin"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://ftp.acc.umu.se/pub/GNOME/sources/gspell/1.9/gspell-1.9.1.tar.xz",
@@ -182,9 +182,9 @@
             ]
         },
         {
-            "name" : "uchardet",
+            "name": "uchardet",
             "buildsystem": "cmake",
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://www.freedesktop.org/software/uchardet/releases/uchardet-0.0.7.tar.xz",
@@ -193,9 +193,9 @@
             ]
         },
         {
-            "name" : "fmt",
+            "name": "fmt",
             "buildsystem": "cmake",
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://github.com/fmtlib/fmt/releases/download/7.1.3/fmt-7.1.3.zip",
@@ -204,9 +204,9 @@
             ]
         },
         {
-            "name" : "spdlog",
+            "name": "spdlog",
             "buildsystem": "cmake",
-            "sources" : [
+            "sources": [
                 {
                     "type" : "archive",
                     "url" : "https://github.com/gabime/spdlog/archive/refs/tags/v1.8.5.tar.gz",
@@ -215,13 +215,30 @@
             ]
         },
         {
-            "name" : "cherrytree",
-            "buildsystem": "cmake",
-            "sources" : [
+            "name": "cherrytree",
+            "buildsystem": "cmake-ninja",
+            "build-options": {
+                "cxxflags": "-D_FLATPAK_BUILD=1"
+            },
+            "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.47.tar.xz",
-                    "sha256" : "1b551ee00f788d21ebda3123495a88da293467b8a53bb78fb4fae957c452d024"
+                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.47.2.tar.xz",
+                    "sha256" : "ca22f0ec6a02ed79a403d38e10c5c1630c493976111bc4e7532877e33f6981b7"
+                }
+            ]
+        },
+        {
+            "name": "tinytex",
+            "buildsystem": "simple",
+            "build-commands": [
+                "tar xf TinyTeX-1-v2022.04.04.tar.xz -C /app/bin/"
+            ],
+            "sources": [
+                {
+                    "type" : "file",
+                    "url" : "https://www.giuspen.com/software/TinyTeX-1-v2022.04.04.tar.xz",
+                    "sha256" : "3025930f9c9e989c0cac59826f8ee126d677aec728d20537b9e53e13ace29020"
                 }
             ]
         }
