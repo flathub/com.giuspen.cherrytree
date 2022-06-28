@@ -223,8 +223,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.com/software/cherrytree_0.99.47.2.tar.xz",
-                    "sha256" : "ca22f0ec6a02ed79a403d38e10c5c1630c493976111bc4e7532877e33f6981b7"
+                    "url" : "https://www.giuspen.net/software/cherrytree_0.99.48.tar.xz",
+                    "sha256" : "4bba4f19d23560e8aa59f2ab1e76f128f7f02adaebb5813e826e1753ee5d81fa"
                 }
             ]
         },
@@ -237,7 +237,7 @@
             "sources": [
                 {
                     "type" : "file",
-                    "url" : "https://www.giuspen.com/software/TinyTeX-1-v2022.04.04.tar.xz",
+                    "url" : "https://www.giuspen.net/software/TinyTeX-1-v2022.04.04.tar.xz",
                     "sha256" : "3025930f9c9e989c0cac59826f8ee126d677aec728d20537b9e53e13ace29020"
                 }
             ]
