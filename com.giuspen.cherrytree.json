@@ -1,5 +1,5 @@
 {
-    "app-id": "com.giuspen.cherrytree",
+    "app-id": "net.giuspen.cherrytree",
     "runtime": "org.gnome.Platform",
     "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
