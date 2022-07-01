@@ -1,5 +1,5 @@
 {
-    "app-id": "net.giuspen.cherrytree",
+    "app-id": "com.giuspen.cherrytree",
     "runtime": "org.gnome.Platform",
     "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
@@ -223,8 +223,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.net/software/cherrytree_0.99.48.tar.xz",
-                    "sha256" : "4bba4f19d23560e8aa59f2ab1e76f128f7f02adaebb5813e826e1753ee5d81fa"
+                    "url" : "https://www.giuspen.net/software/cherrytree_0.99.47.2.tar.xz",
+                    "sha256" : "ca22f0ec6a02ed79a403d38e10c5c1630c493976111bc4e7532877e33f6981b7"
                 }
             ]
         },
